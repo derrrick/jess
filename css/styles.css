@@ -1,0 +1,17 @@
+/* -- BUTTONS -- */
+
+        .btn      { border: 1px solid #e2e2e2;
+                    border-radius: 100px;
+                    padding: 10px 30px 10px 30px;
+                    margin-bottom: 100px;
+                    background-color: #fff;
+                    color: #666;
+                    text-decoration: none;
+                  }
+
+       .btn:hover,
+       .btn:focus,
+       .btn:active { color: white;
+                     background-color: lightgreen;
+                     transition: .3s;
+                   }
