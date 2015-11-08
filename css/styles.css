@@ -6,6 +6,7 @@
                     vertical-align: middle;
                     border: 1px solid #e2e2e2;
                     border-radius: 100px;
+                    width: 100%;
                     padding: 10px 30px 10px 30px;
                     margin-bottom: 100px;
                     background-color: #fff;
@@ -31,8 +32,7 @@
             text-align: center;
             padding: 200px 0 200px 0;
             color: white;
-            background-image:linear-gradient(-180deg, rgba(255,255,255,0.00) 0%, rgba(0,0,0,0.50) 100%), url();
-            background-position: bottom;
+            background-image: radial-gradient(50% 144%, #87FFE9 44%, #3BE6CC 100%);
             margin-bottom: 80px;
                }
 
@@ -43,3 +43,24 @@
            height:auto;
            margin-bottom: 20px;
                       }
+
+      .img-responsive-left {
+            display:block;
+            margin: 0, auto;
+            position: relative;
+            float:left;
+            width:49%;
+            height:auto;
+            margin: 0, auto;
+            padding-bottom: 14px;
+                      }
+      .img-responsive-right {
+            display:block;
+            margin: 0, auto;
+            position: relative;
+            float:right;
+            width:49%;
+            height:auto;
+            margin: 0, auto;
+            padding-bottom: 14px;
+                                      }
